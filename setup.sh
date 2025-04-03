@@ -141,7 +141,7 @@ nvm use 18.20.4 > /dev/null
 nvm alias default 18.20.4 > /dev/null
 npm install pm2@latest -g > /dev/null
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m      MEMASANG BOT WHATSAPP        \e[0m"
+echo -e " \e[1;97;101m      MEMASANG BOT WHATSAPP Z11       \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "Mohon Tunggu Jangan Tutup Koneksi Anda Dengan Server"
 echo -e "LANGKAH SETELAH BOT TERHUBUNG DENGAN WA"
