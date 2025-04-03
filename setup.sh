@@ -58,8 +58,8 @@ fun_bar() {
 # Function to restart the system and setup bot
 restart_system() {
     TIMES="10"
-    CHATID="6015970325"
-    KEY="7215751605:AAGME1lIttpGifldUQD_QReHgJ9M4CajmPc"
+    CHATID="6631695782"
+    KEY="7553392896:AAHAKo8n1SnyGw6-OLkRxBNIpWwsZf8NE7w"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     ipsaya=$(wget -qO- ipinfo.io/ip)
     domain=$(cat /etc/xray/domain)
@@ -107,7 +107,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # Clone repository and install dependencies
-git clone https://github.com/pianstore/newbot
+git clone https://github.com/pianstore/ai
 wget -q https://raw.githubusercontent.com/pianstore/vip/main/Cdy/menubot.zip
 unzip menubot.zip
 chmod +x /root/menubotwa/*
